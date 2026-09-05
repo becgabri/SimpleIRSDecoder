@@ -1,0 +1,156 @@
+INFO:__main__:NEW RUN
+INFO:__main__:Solution 0 degree profile: 
+[0 4 9]
+INFO:__main__:Solution 1 degree profile: 
+[2 4 9]
+INFO:__main__:Solution 2 degree profile: 
+[6 0 9]
+INFO:__main__:Running with ell = 10
+INFO:__main__:USING 10
+INFO:__main__:Going through second step
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[2 2 2]
+[2 2 2]
+[2 2 2]
+INFO:__main__:COLUMN PROFILE: [2, 2, 2]
+INFO:__main__:State of shifts starting loop: [10, 0, 0, 0]
+INFO:__main__:Row profile: [104, 104, 104]
+INFO:__main__:State of shifts: [10, 1, 1, 1]
+INFO:__main__:Rp as: [103 104 104]
+INFO:__main__:Rp pos 0: [104 104 105]
+INFO:__main__:Rp pos 1: [103 104 104]
+INFO:__main__:Rp pos 2: [104 104 104]
+INFO:__main__:State of shifts starting loop: [10, 0, 1, 0]
+INFO:__main__:Row profile: [104, 104, 104]
+INFO:__main__:State of shifts: [10, 1, 2, 1]
+INFO:__main__:Rp as: [103 104 104]
+INFO:__main__:Rp pos 0: [104 104 105]
+INFO:__main__:Rp pos 1: [103 104 104]
+INFO:__main__:Rp pos 2: [104 104 104]
+INFO:__main__:State of shifts starting loop: [10, 0, 2, 0]
+INFO:__main__:Row profile: [104, 104, 104]
+INFO:__main__:State of shifts: [10, 1, 3, 1]
+INFO:__main__:Rp as: [103 104 104]
+INFO:__main__:Rp pos 0: [103 104 104]
+INFO:__main__:Rp pos 1: [103 104 104]
+INFO:__main__:Rp pos 2: [104 104 104]
+INFO:__main__:State of shifts starting loop: [10, 1, 3, 0]
+INFO:__main__:Row profile: [104, 104, 104]
+INFO:__main__:State of shifts: [10, 2, 4, 1]
+INFO:__main__:Rp as: [103 104 104]
+INFO:__main__:Rp pos 0: [103 104 104]
+INFO:__main__:Rp pos 1: [103 104 104]
+INFO:__main__:Rp pos 2: [104 104 105]
+INFO:__main__:State of shifts starting loop: [10, 2, 4, 0]
+INFO:__main__:Row profile: [104, 104, 105]
+INFO:__main__:State of shifts: [10, 3, 5, 1]
+INFO:__main__:Rp as: [104 104 104]
+INFO:__main__:Rp pos 0: [104 104 104]
+INFO:__main__:Rp pos 1: [104 104 104]
+INFO:__main__:Rp pos 2: [104 105 105]
+INFO:__main__:State of shifts starting loop: [10, 3, 5, 0]
+INFO:__main__:Row profile: [104, 105, 105]
+INFO:__main__:State of shifts: [10, 4, 6, 1]
+INFO:__main__:Rp as: [104 104 105]
+INFO:__main__:Rp pos 0: [104 104 105]
+INFO:__main__:Rp pos 1: [104 104 105]
+INFO:__main__:Rp pos 2: [105 105 105]
+INFO:__main__:State of shifts starting loop: [10, 4, 6, 0]
+INFO:__main__:Row profile: [105, 105, 105]
+INFO:__main__:State of shifts: [10, 5, 7, 1]
+INFO:__main__:Rp as: [105 105 105]
+INFO:__main__:State of shifts before check stage: [10, 4, 6, 0]
+INFO:__main__:CURRENT ITER PROFILE OF U_INV:
+[ 0  0  0]
+[ 0  0  0]
+[ 0  0 -1]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[0, 0, 0]
+INFO:__main__:ROW PROFILE OF SHORT VECS: [105, 105, 105]
+INFO:__main__:Found polynomial in first part through error profile
+INFO:__main__:Found polynomial solution corresponding to 2
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 10
+INFO:__main__:USING 10
+INFO:__main__:Going through second step
+INFO:__main__:Solution 2 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[0 0]
+[0 0]
+INFO:__main__:COLUMN PROFILE: [0, 0]
+INFO:__main__:State of shifts starting loop: [10, 0, 0, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 1, 1, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 1, 1, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 2, 2, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 2, 2, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 3, 3, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 3, 3, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 4, 4, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 4, 4, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 5, 5, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 5, 5, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 6, 6, 1]
+INFO:__main__:Rp as: [56 57]
+INFO:__main__:Rp pos 0: [56 57]
+INFO:__main__:Rp pos 1: [56 57]
+INFO:__main__:Rp pos 2: [57 57]
+INFO:__main__:State of shifts starting loop: [10, 6, 6, 0]
+INFO:__main__:Row profile: [57, 57]
+INFO:__main__:State of shifts: [10, 7, 7, 1]
+INFO:__main__:Rp as: [57 57]
+INFO:__main__:State of shifts before check stage: [10, 6, 6, 0]
+INFO:__main__:CURRENT ITER PROFILE OF U_INV:
+[0 0]
+[0 0]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[0, 0]
+INFO:__main__:ROW PROFILE OF SHORT VECS: [57, 57]
+INFO:__main__:GOING THROUGH SECOND PART BECAUSE I HAVE TO
+INFO:__main__:0 polynomial has 48 pts
+INFO:__main__:1 polynomial has 48 pts
+INFO:__main__:2 polynomial has 0 pts
+INFO:__main__:3 polynomial has 0 pts
+INFO:__main__:0 points from polynomials 0
+INFO:__main__:1 points from polynomials 1
+INFO:__main__:0 points from polynomials 2
+INFO:__main__:0 points from polynomials 3
+INFO:__main__:IN FIRST STEP WHAT IS THE SUPPORT:
+[ 0 -1]
+INFO:__main__:Column Profile
+INFO:__main__:[0, 0]
+INFO:__main__:Found polynomial through lagrangian interpolation and reconstruction
+INFO:__main__:Found polynomial solution corresponding to 1
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 10
+INFO:__main__:USING 10
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 0
+INFO:__main__:Found a solution
+INFO:__main__:FINAL OUTPUT
+INFO:__main__:Success

@@ -1,0 +1,423 @@
+INFO:__main__:NEW RUN
+INFO:__main__:Solution 0 degree profile: [2 2 0 0 1 1 3]
+INFO:__main__:Solution 1 degree profile: [3 3 1 2 3 3 2]
+INFO:__main__:Solution 2 degree profile: [0 1 0 2 0 2 3]
+INFO:__main__:Solution 3 degree profile: [0 1 2 1 1 2 2]
+INFO:__main__:Solution 4 degree profile: [3 0 2 3 0 1 0]
+INFO:__main__:Solution 5 degree profile: [2 0 1 3 3 0 3]
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [97, 97, 89, 90, 90, 90, 89, 89], Unshifted total: 731
+ Pivot idxs:
+[1, 2, 7, 3, 4, 0, 5, 6]
+INFO:__main__:True shifted degree: [97, 97, 89, 90, 90, 87, 89, 89], total: 728
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[ 1  0  0  0 -1 -1]
+[ 2  1  1  1  0  0]
+[ 2  1  1  1  0  0]
+[ 1  0  0  0 -1 -1]
+[ 1  0  0  0 -1 -1]
+[ 1  0  0  0 -1 -1]
+INFO:__main__:COLUMN PROFILE: [2, 1, 1, 1, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [89, 90, 90, 89, 89, 89]
+SOLN RP: [89, 89, 90, 89, 90, 90]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [97, 97, 89, 90, 90, 90, 89, 89], Unshifted total: 731
+ Pivot idxs:
+[1, 2, 7, 3, 4, 0, 5, 6]
+INFO:__main__:True shifted degree: [97, 97, 89, 90, 90, 87, 89, 89], total: 728
+INFO:__main__:Unshifted row profile: [55, 55, 55, 68, 68, 68, 68, 56], Unshifted total: 493
+ Pivot idxs:
+[5, 6, 7, 1, 2, 3, 4, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 68, 68, 68, 68, 53], total: 490
+INFO:__main__:Going through second step
+INFO:__main__:Unshifted row profile: [55, 55, 55, 68, 68, 68, 68, 56], Unshifted total: 493
+ Pivot idxs:
+[5, 6, 7, 1, 2, 3, 4, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 68, 68, 68, 68, 53], total: 490
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:Solution 5 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[1 0 0 0]
+[1 0 0 0]
+[1 0 0 0]
+[1 0 0 0]
+INFO:__main__:COLUMN PROFILE: [1, 0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [55, 55, 55, 55]
+SOLN RP: [55, 55, 56, 55]
+INFO:__main__:What follows is for shift [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Unshifted row profile: [55, 55, 55, 56], Unshifted total: 221, Pivot idxs:
+[5, 6, 7, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:State of shifts starting loop: [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Shifted row profile: [55, 55, 55, 55]
+INFO:__main__:State of shifts: [3, 1, 1, 1, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 56], Unshifted total: 224, Pivot idxs:
+[5, 6, 7, 4]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp as: [55 55 55 55]
+INFO:__main__:Breaking
+INFO:__main__:State of shifts before check stage: [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Unshifted row profile: [55, 55, 55, 56], Unshifted total: 221, Pivot idxs:
+[5, 6, 7, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:Solution 5 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[1 0 0 0]
+[1 0 0 0]
+[1 0 0 0]
+[1 0 0 0]
+INFO:__main__:COLUMN PROFILE: [1, 0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [55, 55, 55, 55]
+SOLN RP: [55, 55, 56, 55]
+INFO:__main__:hatS total: 222
+INFO:__main__:GOING THROUGH SECOND PART BECAUSE I HAVE TO
+INFO:__main__:0 polynomial has 18 pts
+INFO:__main__:1 polynomial has 18 pts
+INFO:__main__:2 polynomial has 17 pts
+INFO:__main__:3 polynomial has 17 pts
+INFO:__main__:4 polynomial has 0 pts
+INFO:__main__:5 polynomial has 0 pts
+INFO:__main__:6 polynomial has 0 pts
+INFO:__main__:1 points from polynomials 0
+INFO:__main__:0 points from polynomials 1
+INFO:__main__:0 points from polynomials 2
+INFO:__main__:0 points from polynomials 3
+INFO:__main__:0 points from polynomials 4
+INFO:__main__:0 points from polynomials 5
+INFO:__main__:0 points from polynomials 6
+INFO:__main__:You have a vector in the basis that is not in S
+INFO:__main__:You have a vector in the basis that is not in S
+INFO:__main__:You have a vector in the basis that is not in S
+INFO:__main__:IN FIRST STEP WHAT IS THE SUPPORT:
+[]
+INFO:__main__:Column Profile
+INFO:__main__:[]
+INFO:__main__:Increasing the degree ell!
+INFO:__main__:Unshifted row profile: [56, 55, 55, 68, 68, 68, 68, 56], Unshifted total: 494
+ Pivot idxs:
+[0, 6, 7, 1, 2, 3, 4, 5]
+INFO:__main__:True shifted degree: [52, 55, 55, 68, 68, 68, 68, 56], total: 490
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:Solution 5 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[1 0 0 0]
+[1 0 0 0]
+[1 0 0 0]
+[2 1 1 1]
+INFO:__main__:COLUMN PROFILE: [2, 1, 1, 1]
+INFO:__main__:REDUCED BASIS RP: [55, 55, 55, 56]
+SOLN RP: [55, 55, 56, 55]
+INFO:__main__:What follows is for shift [4, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Unshifted row profile: [56, 55, 55, 56], Unshifted total: 222, Pivot idxs:
+[0, 6, 7, 5]
+INFO:__main__:True shifted degree: [52, 55, 55, 56], total: 218
+INFO:__main__:State of shifts starting loop: [4, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Shifted row profile: [55, 55, 55, 56]
+INFO:__main__:State of shifts: [4, 1, 1, 1, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 5, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp as: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 0, 1, 1, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 5, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 0: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 0, 1, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 5, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 1: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 1, 0, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 5, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 2: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 1, 1, 0, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 5, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 3: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 1, 1, 1, 0, 1, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 6, 4, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 4: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 1, 1, 1, 1, 0, 1]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 57], Unshifted total: 225, Pivot idxs:
+[7, 5, 4, 0]
+INFO:__main__:True shifted degree: [55, 55, 55, 53], total: 218
+INFO:__main__:Rp pos 5: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 1, 1, 1, 1, 1, 0]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 56], Unshifted total: 224, Pivot idxs:
+[6, 0, 5, 7]
+INFO:__main__:True shifted degree: [55, 52, 55, 56], total: 218
+INFO:__main__:Rp pos 6: [55 55 55 56]
+INFO:__main__:What follows is for shift [4, 1, 1, 1, 1, 1, 1, 0]
+INFO:__main__:Unshifted row profile: [56, 56, 56, 56], Unshifted total: 224, Pivot idxs:
+[6, 0, 5, 7]
+INFO:__main__:True shifted degree: [55, 52, 55, 56], total: 218
+INFO:__main__:State of shifts starting loop: [4, 1, 1, 1, 1, 1, 1, 0]
+INFO:__main__:Shifted row profile: [55, 55, 55, 56]
+INFO:__main__:State of shifts: [4, 2, 2, 2, 2, 2, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 5, 4]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp as: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 1, 2, 2, 2, 2, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 5, 4]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 0: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 1, 2, 2, 2, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 5, 4]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 1: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 2, 1, 2, 2, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 5, 4]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 2: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 2, 2, 1, 2, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 5, 3]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 3: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 2, 2, 2, 1, 2, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 7, 4, 3]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 4: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 2, 2, 2, 2, 1, 1]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[5, 7, 4, 3]
+INFO:__main__:True shifted degree: [55, 55, 55, 55], total: 220
+INFO:__main__:Rp pos 5: [55 55 55 55]
+INFO:__main__:Next stats for shift: [4, 2, 2, 2, 2, 2, 2, 0]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 2, 5, 4]
+INFO:__main__:True shifted degree: [55, 54, 55, 55], total: 219
+INFO:__main__:Rp pos 6: [55 55 55 56]
+INFO:__main__:What follows is for shift [4, 2, 2, 2, 2, 2, 2, 0]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 2, 5, 4]
+INFO:__main__:True shifted degree: [55, 54, 55, 55], total: 219
+INFO:__main__:State of shifts starting loop: [4, 2, 2, 2, 2, 2, 2, 0]
+INFO:__main__:Shifted row profile: [55, 55, 55, 56]
+INFO:__main__:State of shifts: [4, 3, 3, 3, 3, 3, 3, 1]
+INFO:__main__:Unshifted row profile: [58, 57, 58, 58], Unshifted total: 231, Pivot idxs:
+[6, 2, 5, 4]
+INFO:__main__:True shifted degree: [55, 54, 55, 55], total: 219
+INFO:__main__:Rp as: [55 55 55 56]
+INFO:__main__:Breaking
+INFO:__main__:State of shifts before check stage: [4, 2, 2, 2, 2, 2, 2, 0]
+INFO:__main__:Unshifted row profile: [57, 56, 57, 57], Unshifted total: 227, Pivot idxs:
+[6, 2, 5, 4]
+INFO:__main__:True shifted degree: [55, 54, 55, 55], total: 219
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:Solution 5 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[ 1  0  0  0]
+[ 0 -1 -1 -1]
+[ 1  0  0  0]
+[ 1 -1  0  0]
+INFO:__main__:COLUMN PROFILE: [1, 0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [55, 55, 55, 56]
+SOLN RP: [55, 55, 56, 55]
+INFO:__main__:hatS total: 227
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 0
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [72, 72, 72, 72, 71, 82, 82, 82], Unshifted total: 605
+ Pivot idxs:
+[4, 5, 0, 7, 6, 1, 2, 3]
+INFO:__main__:True shifted degree: [72, 72, 69, 72, 71, 82, 82, 82], total: 602
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[ 0 -1  0  0 -1]
+[ 0  0  0  0  0]
+[ 0 -1  0 -1 -1]
+[ 1  0  0  0  0]
+[ 0 -1 -1 -1 -1]
+INFO:__main__:COLUMN PROFILE: [1, 0, 0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [72, 72, 71, 72, 71]
+SOLN RP: [71, 72, 71, 72, 72]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [72, 72, 72, 72, 71, 82, 82, 82], Unshifted total: 605
+ Pivot idxs:
+[4, 5, 0, 7, 6, 1, 2, 3]
+INFO:__main__:True shifted degree: [72, 72, 69, 72, 71, 82, 82, 82], total: 602
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 1
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [54, 65, 54, 66, 66, 66, 54, 54], Unshifted total: 479
+ Pivot idxs:
+[7, 6, 0, 1, 2, 3, 4, 5]
+INFO:__main__:True shifted degree: [54, 65, 51, 66, 66, 66, 54, 54], total: 476
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[ 0  0  0  0]
+[-1  0 -1 -1]
+[-1  0  0 -1]
+[ 0  0  0  0]
+INFO:__main__:COLUMN PROFILE: [0, 0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [54, 53, 54, 54]
+SOLN RP: [54, 53, 54, 54]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [54, 65, 54, 66, 66, 66, 54, 54], Unshifted total: 479
+ Pivot idxs:
+[7, 6, 0, 1, 2, 3, 4, 5]
+INFO:__main__:True shifted degree: [54, 65, 51, 66, 66, 66, 54, 54], total: 476
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 3
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [49, 37, 50, 50, 50, 50, 37, 37], Unshifted total: 360
+ Pivot idxs:
+[6, 7, 1, 2, 3, 0, 4, 5]
+INFO:__main__:True shifted degree: [49, 37, 50, 50, 50, 47, 37, 37], total: 357
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:Solution 3 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[ 0  0  0]
+[-1  0 -1]
+[ 0  0  0]
+INFO:__main__:COLUMN PROFILE: [0, 0, 0]
+INFO:__main__:REDUCED BASIS RP: [37, 37, 37]
+SOLN RP: [37, 37, 37]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [49, 37, 50, 50, 50, 50, 37, 37], Unshifted total: 360
+ Pivot idxs:
+[6, 7, 1, 2, 3, 0, 4, 5]
+INFO:__main__:True shifted degree: [49, 37, 50, 50, 50, 47, 37, 37], total: 357
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 4
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [20, 34, 34, 34, 20, 33, 33, 33], Unshifted total: 241
+ Pivot idxs:
+[5, 1, 2, 0, 7, 4, 3, 6]
+INFO:__main__:True shifted degree: [20, 34, 34, 31, 20, 33, 33, 33], total: 238
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:Solution 3 not in lattice
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[0 0]
+[0 0]
+INFO:__main__:COLUMN PROFILE: [0, 0]
+INFO:__main__:REDUCED BASIS RP: [20, 20]
+SOLN RP: [20, 20]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [20, 34, 34, 34, 20, 33, 33, 33], Unshifted total: 241
+ Pivot idxs:
+[5, 1, 2, 0, 7, 4, 3, 6]
+INFO:__main__:True shifted degree: [20, 34, 34, 31, 20, 33, 33, 33], total: 238
+INFO:__main__:Going through second step
+INFO:__main__:Unshifted row profile: [20, 34, 34, 34, 20, 33, 33, 33], Unshifted total: 241
+ Pivot idxs:
+[5, 1, 2, 0, 7, 4, 3, 6]
+INFO:__main__:True shifted degree: [20, 34, 34, 31, 20, 33, 33, 33], total: 238
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:Solution 3 not in lattice
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[0 0]
+[0 0]
+INFO:__main__:COLUMN PROFILE: [0, 0]
+INFO:__main__:REDUCED BASIS RP: [20, 20]
+SOLN RP: [20, 20]
+INFO:__main__:What follows is for shift [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Unshifted row profile: [20, 20], Unshifted total: 40, Pivot idxs:
+[5, 7]
+INFO:__main__:True shifted degree: [20, 20], total: 40
+INFO:__main__:State of shifts starting loop: [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Shifted row profile: [20, 20]
+INFO:__main__:State of shifts: [3, 1, 1, 1, 1, 1, 1, 1]
+INFO:__main__:Unshifted row profile: [21, 21], Unshifted total: 42, Pivot idxs:
+[5, 7]
+INFO:__main__:True shifted degree: [20, 20], total: 40
+INFO:__main__:Rp as: [20 20]
+INFO:__main__:Breaking
+INFO:__main__:State of shifts before check stage: [3, 0, 0, 0, 0, 0, 0, 0]
+INFO:__main__:Unshifted row profile: [20, 20], Unshifted total: 40, Pivot idxs:
+[5, 7]
+INFO:__main__:True shifted degree: [20, 20], total: 40
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:Solution 3 not in lattice
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[0 0]
+[0 0]
+INFO:__main__:COLUMN PROFILE: [0, 0]
+INFO:__main__:REDUCED BASIS RP: [20, 20]
+SOLN RP: [20, 20]
+INFO:__main__:hatS total: 40
+INFO:__main__:GOING THROUGH SECOND PART BECAUSE I HAVE TO
+INFO:__main__:0 polynomial has 0 pts
+INFO:__main__:1 polynomial has 0 pts
+INFO:__main__:2 polynomial has 17 pts
+INFO:__main__:3 polynomial has 0 pts
+INFO:__main__:4 polynomial has 0 pts
+INFO:__main__:5 polynomial has 17 pts
+INFO:__main__:6 polynomial has 0 pts
+INFO:__main__:0 points from polynomials 0
+INFO:__main__:0 points from polynomials 1
+INFO:__main__:1 points from polynomials 2
+INFO:__main__:0 points from polynomials 3
+INFO:__main__:0 points from polynomials 4
+INFO:__main__:0 points from polynomials 5
+INFO:__main__:0 points from polynomials 6
+INFO:__main__:You have a vector in the basis that is not in S
+INFO:__main__:IN FIRST STEP WHAT IS THE SUPPORT:
+[]
+INFO:__main__:Column Profile
+INFO:__main__:[]
+INFO:__main__:Found polynomial through lagrangian interpolation and reconstruction
+INFO:__main__:Found polynomial solution corresponding to 2
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 3
+INFO:__main__:Unshifted row profile: [3, 17, 17, 17, 17, 17, 17, 17], Unshifted total: 122
+ Pivot idxs:
+[7, 1, 2, 3, 4, 5, 6, 0]
+INFO:__main__:True shifted degree: [3, 17, 17, 17, 17, 17, 17, 14], total: 119
+INFO:__main__:This is before the loop!
+INFO:__main__:Resetting ell to 3
+INFO:__main__:Solution 0 not in lattice
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:Solution 2 not in lattice
+INFO:__main__:Solution 3 not in lattice
+INFO:__main__:Solution 4 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[0]
+INFO:__main__:COLUMN PROFILE: [0]
+INFO:__main__:REDUCED BASIS RP: [3]
+SOLN RP: [3]
+INFO:__main__:USING 3
+INFO:__main__:Unshifted row profile: [3, 17, 17, 17, 17, 17, 17, 17], Unshifted total: 122
+ Pivot idxs:
+[7, 1, 2, 3, 4, 5, 6, 0]
+INFO:__main__:True shifted degree: [3, 17, 17, 17, 17, 17, 17, 14], total: 119
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 5
+INFO:__main__:Found a solution
+INFO:__main__:FINAL OUTPUT
+INFO:__main__:Success

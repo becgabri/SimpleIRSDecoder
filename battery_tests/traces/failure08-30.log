@@ -1,0 +1,94 @@
+INFO:__main__:NEW RUN
+INFO:__main__:Running with ell = 13
+INFO:__main__:USING 13
+INFO:__main__:Going through second step
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[1 4 3]
+[0 3 2]
+[1 4 3]
+INFO:__main__:COLUMN PROFILE: [1, 4, 3]
+INFO:__main__:GOING THROUGH SECOND PART BECAUSE I HAVE TO
+INFO:__main__:0 polynomial has 62 pts
+INFO:__main__:1 polynomial has 62 pts
+INFO:__main__:2 polynomial has 61 pts
+INFO:__main__:3 polynomial has 15 pts
+INFO:__main__:0 points from polynomials 0
+INFO:__main__:0 points from polynomials 1
+INFO:__main__:1 points from polynomials 2
+INFO:__main__:0 points from polynomials 3
+INFO:__main__:CURRENT ITER PROFILE OF U_INV:
+[1 4 3]
+[0 3 2]
+[1 4 3]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[1, 4, 3]
+INFO:__main__:ROW PROFILE OF BVS: [147, 146, 147]
+INFO:__main__:IN FIRST STEP WHAT IS THE SUPPORT:
+[1 4 3]
+[1 4 3]
+INFO:__main__:Column Profile
+INFO:__main__:[1, 4, 3]
+INFO:__main__:Hit condition where recon_set > 0 but didn't recover anything
+INFO:__main__:BEFORE CONDENSING:
+[1 4 2]
+[1 4 2]
+[2 5 3]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[2, 5, 3]
+INFO:__main__:BEFORE NEXT ROUND:
+[ 0  6  1]
+[-1  2  0]
+[-1  0 -1]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[0, 6, 1]
+INFO:__main__:ROW PROFILE OF BVS: [144, 145, 140]
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 13
+INFO:__main__:USING 13
+INFO:__main__:Going through second step
+INFO:__main__:Found polynomial solution corresponding to 1
+INFO:__main__:Solution 1 not in lattice
+INFO:__main__:FULL MATRIX DEGREES FOR U:
+[3 2]
+[2 1]
+INFO:__main__:COLUMN PROFILE: [3, 2]
+INFO:__main__:GOING THROUGH SECOND PART BECAUSE I HAVE TO
+INFO:__main__:0 polynomial has 62 pts
+INFO:__main__:1 polynomial has 0 pts
+INFO:__main__:2 polynomial has 61 pts
+INFO:__main__:3 polynomial has 15 pts
+INFO:__main__:0 points from polynomials 0
+INFO:__main__:0 points from polynomials 1
+INFO:__main__:1 points from polynomials 2
+INFO:__main__:0 points from polynomials 3
+INFO:__main__:CURRENT ITER PROFILE OF U_INV:
+[3 2]
+[2 1]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[3, 2]
+INFO:__main__:ROW PROFILE OF BVS: [87, 86]
+INFO:__main__:IN FIRST STEP WHAT IS THE SUPPORT:
+[3 2]
+INFO:__main__:Column Profile
+INFO:__main__:[3, 2]
+INFO:__main__:Hit condition where recon_set > 0 but didn't recover anything
+INFO:__main__:BEFORE CONDENSING:
+[3 1]
+[4 2]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[4, 2]
+INFO:__main__:BEFORE NEXT ROUND:
+[ 0  1]
+[-1  0]
+INFO:__main__:COLUMN PROFILE:
+INFO:__main__:[0, 1]
+INFO:__main__:ROW PROFILE OF BVS: [84, 83]
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 13
+INFO:__main__:USING 13
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found a solution
+INFO:__main__:FINAL OUTPUT
+INFO:__main__:Success

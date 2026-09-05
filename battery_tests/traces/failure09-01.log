@@ -1,0 +1,33 @@
+INFO:__main__:NEW RUN
+INFO:__main__:Solution 0 degree profile: [ 5 10  7  8 22 17 21 16  4 20 15  9  6 16 10]
+INFO:__main__:Solution 1 degree profile: [17 17  2  6  4  4 15  3 24 18  5 14  3 14  3]
+INFO:__main__:Solution 2 degree profile: [25 16  5 13  8 22 17 17 15  1 19 24 11 19 25]
+INFO:__main__:Solution 3 degree profile: [ 5  1  2 18 18  8  0  4 12 15  2 20 11  5 13]
+INFO:__main__:Solution 4 degree profile: [12 15  4 14 10  5 18  9 25  4 12 11 10  5  3]
+INFO:__main__:Running with ell = 25
+INFO:__main__:USING 25
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 3
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 25
+INFO:__main__:USING 25
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 0
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 25
+INFO:__main__:USING 25
+INFO:__main__:Found polynomial in first part through error profile
+INFO:__main__:Found polynomial solution corresponding to 2
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 25
+INFO:__main__:USING 25
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 1
+INFO:__main__:Found a solution
+INFO:__main__:Running with ell = 25
+INFO:__main__:USING 25
+INFO:__main__:Found solution in first reduction
+INFO:__main__:Found polynomial solution corresponding to 4
+INFO:__main__:Found a solution
+INFO:__main__:FINAL OUTPUT
+INFO:__main__:Success

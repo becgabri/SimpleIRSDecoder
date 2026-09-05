@@ -1,0 +1,21 @@
+JSON files that specify input distributions to dual_many_stalkers.sage are required to have the following format. 
+
+{
+    "f_size": [int] the size of the field the points are defined over,
+    "c": [int] the number of polynomial evaluations in a point i.e. pt = (x, [y1, ... yc]),
+    "evals": [list of ints] describes the number of points associated with each set (f1, ... fc) i.e. [5,4] means 5 assoc. with the first, 4 associated with the second 
+    "rand": [int] number of purely random points, 
+    "ells": [ (m x c) mtx of ints ] describes the *exact* degree of poly fij which is the jth polynomial of the ith set, 
+    "max_ell": [int] the maximum degree of any polynomial fij, 
+    "raw": [optional, dictionary object] this is used to describe the exact point distribution of input, along with debugging information.
+
+}
+
+If the field "raw" exists, it must be a dictionary with the following format
+{
+    "f_list": [ (m x c) mtx of list of coefficient vectors that define a polynomial] list of polynomials f_ij but flattened so that f_ij is described by its coefficient vector and not a SageMath object,
+    "points": [list] the input list of points. each point should have the format [x, [y1, ..., yc]],
+    "x_coords": [list of coefficients vectors for polynomials] useful for debugging,
+    "random_x_coords": [list of field elements] useful for debugging,
+ 
+}
